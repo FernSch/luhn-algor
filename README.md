@@ -4,5 +4,6 @@ algorith based off of the luhn algorithm which checks the validity of a credit c
 
 
 # how to use
-
+```
 luhn(CREDIT_CARD_NUM_HERE)
+```
