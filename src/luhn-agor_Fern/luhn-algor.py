@@ -8,11 +8,11 @@ def luhn(number):
         num = int(number[i])
 
         if two:
-            num = num * 2
+            num *= 2
         
-        sum = sum + (num / 2)
+        sum += (num / 2)
 
-        sum = sum + (num % 2)
+        sum += (num % 2)
 
         two = not two
 
